@@ -1,0 +1,43 @@
+1)Recapitulativ: un program care sa citeasca un sir de la tastatura si sa afiseze media aritmetica a tuturor elementelor.
+
+MATRICI
+
+Matricile sunt(ca sa le explic cel mai simplu), siruri de siruri.
+
+Ex:
+int M[2][3]; -asa se declara o matrice de 2 randuri si 3 coloane[<=> un sir cu 2 siruri de 3 elemente]
+
+Cum arata in realitate(caci matricile sunt obiecte matematice cu care vei lucra intr-o buna[rea] zi):
+
+Rand\Col   0	   1	  2
+   0	M[0][0] M[0][1] M[0][2]
+   1	M[1][0] M[1][1] M[1][2]
+
+unde M[i][j] este un numarul de pe randul i si coloana j.
+
+
+Cum se poate parcurge o matrice?
+
+La siruri faceam asa:
+int i;
+for(i=0;i<n;i++)
+	ceva cu x[i];
+
+La matrici e asa:
+int i,j;
+for(i=0;i<ROW;i++)
+	for(j=0;j<COL;j++)
+		ceva cu M[i][j];
+
+Primul for ia fiecare rand i; pentru fiecare rand i, avem de luat elementul de pe coloana j;
+OBS!
+La fel ca la siruri, numaratoarea randurilor/coloanelor incepe de la 0.
+
+EXERCITIU:
+Scrie un program care cere de la tastatura marimile unei matrici(numarul de linii si coloane) care urmeaza a fi citite.
+Pe rand, citeste de la tastatura fiecare element al matricii.
+Afiseaza matricea pe ecran(intr-un format patratos cum ti-am aratat mai sus).
+
+Indiciu: foloseste pe cat de mult poti tehnica aia cu degetul pe ecran. Gandeste exact ceea ce o sa faca fiecare linie de cod, ia-o calm si logic si gandeste ca si calculatorul!
+
+Spor succes! :D
